@@ -3034,5 +3034,11 @@ header :where(a, button):focus-visible {
   object-fit: cover;
 }
 
+/* Force service card icons to center */
+.card .card-icon,
+.card .card-icon-large {
+  display: block;       /* ignore inherited text alignment */
+  margin: 0 auto 10px;  /* center horizontally and keep spacing below */
+}
 
 
